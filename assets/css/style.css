@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 :root {
-    --primary-color: #01524e;
-    --primary-color-darker: #023a37;
+    --primary-color: rgb(104, 103, 103);
+    --primary-color-darker: rgb(73, 72, 72);
 }
 
 * {
@@ -13,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: var(--primary-color);
+    background: linear-gradient(to right, rgb(160, 162, 160), rgb(78, 75, 75));;
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -79,4 +79,8 @@ form button:hover {
 
 .btn:hover {
     background: #9e9e9e;
+}
+
+.btn:focus {
+    font-size: 18px;
 }
